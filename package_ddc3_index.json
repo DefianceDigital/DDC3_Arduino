@@ -23,7 +23,7 @@
           },
           "boards": [
 			{
-              "name": "DDC3"
+              "name": "PYGMY"
             },
 			{
               "name": "rIOT-LITE"
