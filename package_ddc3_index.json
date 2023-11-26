@@ -12,6 +12,62 @@
 	  {
           "name": "DDC3",
           "architecture": "esp32",
+          "version": "1.0.2",
+          "category": "Contributed",
+          "url": "https://defiance-digital-public.s3.us-east-2.amazonaws.com/DDC3-1.0.2.zip",
+          "archiveFileName": "DDC3-1.0.2.zip",
+          "checksum": "SHA-256:df816129c04d539c2f441bf1229c38d38abdb0ac05c74934cc3a33fc58b1c07a",
+          "size": "83823875",
+          "help": {
+            "online": ""
+          },
+          "boards": [
+			{
+              "name": "PYGMY"
+            },
+			{
+              "name": "rIOT-LITE"
+            },
+            {
+              "name": "ESP32-C3 Dev Board"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "esp32",
+              "name": "riscv32-esp-elf-gcc",
+              "version": "esp-2021r2-patch5-8.4.0"
+            },
+            {
+              "packager": "esp32",
+              "name": "riscv32-esp-elf-gdb",
+              "version": "11.2_20220823"
+            },
+            {
+              "packager": "esp32",
+              "name": "openocd-esp32",
+              "version": "v0.11.0-esp32-20221026"
+            },
+            {
+              "packager": "esp32",
+              "name": "esptool_py",
+              "version": "4.5.1"
+            },
+            {
+              "packager": "esp32",
+              "name": "mkspiffs",
+              "version": "0.2.3"
+            },
+            {
+              "packager": "esp32",
+              "name": "mklittlefs",
+              "version": "3.0.0-gnu12-dc7f933"
+            }
+          ]
+        },
+		{
+          "name": "DDC3",
+          "architecture": "esp32",
           "version": "1.0.1",
           "category": "Contributed",
           "url": "https://defiance-digital-public.s3.us-east-2.amazonaws.com/DDC3-1.0.1.zip",
